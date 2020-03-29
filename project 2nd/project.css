@@ -1,0 +1,104 @@
+
+
+body {
+    text-align: center;
+    font-family: 'Comfortaa';
+    background: url("style/blackmap.jpg");
+    color: rgb(245, 245, 245);
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+a{
+  color: aliceblue;
+  width: 165px;
+  font-size: 14px;
+}
+
+a:hover{
+  text-decoration: underline;
+  opacity: 50%;
+  color: rgb(107, 107, 107);
+
+}
+
+.dropdown-menu{
+  opacity: 80%;
+}
+
+.dropdown-menu:hover{
+  color: rgb(255, 255, 255);
+}
+
+.carousel-caption{
+  color: aliceblue;
+  z-index: 10;
+}
+.carousel-inner {
+  color: #ffffff;
+height: 550px;
+width: 1150px;
+font-family: 'Comfortaa';
+}
+
+.carousel .item {
+  height: 550px;
+}
+
+.left{
+width: 30px;
+margin-top: 250px;
+height: 30px;
+
+}
+
+.right{
+  width: 30px;
+  margin-top: 250px;
+  height: 30px;
+  
+}
+
+
+.redmarker{
+  position:absolute;
+  bottom: 260px;
+  left: 430px;
+  z-index: 2;
+}
+
+.bluemarker{
+    position:absolute;
+    bottom: 360px;
+    right: 450px;
+    z-index: 2;
+  }
+
+  .greenmarker{
+    position:absolute;
+    bottom: 270px;
+    right: 770px;
+    z-index: 2;
+  }
+
+  .whitemarker{
+    position:absolute;
+    top: 220px;
+    right: 800px;
+    z-index: 2;
+  }
+
+  .yellowmarker{
+    position:absolute;
+    left: 430px;
+    top: 275px;
+    z-index: 2;
+  }
+
+  .social{
+height: 40px;
+color: aliceblue;
+  }
