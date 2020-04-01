@@ -34,3 +34,34 @@ button{
   .dropdown-menu:hover{
     color: rgb(255, 255, 255);
   }
+
+
+  
+  /* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: rgb(223, 79, 79);
+  color: white;
+}
+
+
+.fa {
+  padding: 15px;
+  margin-left: 10px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
