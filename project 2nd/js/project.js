@@ -1,6 +1,18 @@
-document.addEventListener('DOMContentLoaded', function() {
+function socialScroll() {
+  $("html,body").animate({
+      scrollTop: $("#sociallinks").offset().top
+    },
+    "slow");
+}
 
-    var headlinks = document.getElementsByTagName('a');
+$(document).ready(function(){
+  if(window.location.href.indexOf("toplink3") > -1){
+      socialScroll();
+  }
+});
 
-
+$(function () {
+ $("#toplink3").click(function() {
+  socialScroll();
+ });
 });
