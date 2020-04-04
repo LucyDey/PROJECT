@@ -9,9 +9,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="contact.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  
   </head>
 
     <!-- TOP LINKS -->
@@ -31,76 +30,56 @@
               <li><a href="./uk.html">UNITED KINGDOM</a></li>
             </ul>
           </li>
-          <li class="active"><a class="toplink3" href="./contact.html">CONTACT US</a></li>
+          <li class="active" ><a id="toplink3" href="#">CONTACT US</a></li>
         </ul>
       </div>
     </nav>
+
+
+    <body>
     
     <!-- <! ---main body---!!!> -->
-  <body>
-      </main>
-  
-      
-      <div class="markers">
-          <a href="./columbia.html">
-          <img src="./marker/red.png" class="redmarker">
-              </a>
-              <a href="./china.html">
-                  <img src="./marker/blue.png" class="bluemarker">
-              </a>
-              <a href="./nigeria.html">
-                <img src="./marker/green.png" class="greenmarker">
-            </a>
-            <a href="./uk.html">
-              <img src="./marker/white.png" class="whitemarker">
-          </a>
-          <a href="./newyork.html">
-            <img src="./marker/yellow.png" class="yellowmarker">
-        </a>
-      </div>
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-      <script src="./js/index.js"></script>
+    <div class="container">  
+      <form id="contact" action="" method="post">
+        <h2><b>GET IN TOUCH!</b></h2>
+        <h4>WHERE'S YOUR FAVOURITE DRUNK FOOD FROM?</h4>
+        <fieldset>
+          <input placeholder="FIRST NAME" type="text" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+          <input placeholder="EMAIL ADDRESS" type="email" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="COUNTRY" type="tel" tabindex="3" required>
+        </fieldset>
+        <fieldset>
+          <textarea placeholder="TYPE YOUR MESSAGE HERE..." tabindex="5" required></textarea>
+        </fieldset>
+        <fieldset>
+          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">SUBMIT</button>
+        </fieldset>
+      </form>
+    </div>
 
-  <h1>CONTACT US</h1>
-   <!-- CONTACT US -->
-    <div class="container" id="get-in-touch">
-      <div class="row">
-         <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
-                <div class="contact-form">
-                  <h4>WHAT'S YOUR FAVOURITE DRUNK FOOD?</h4>
-                </br>
-                    <form role="form">
-                        <div class="form-group">
-                            <input type="text" class="form-control input-lg" placeholder="FULL NAME" required>
-                        </div>
-                          <div class="form-group">
-                            <input type="text" class="form-control input-lg" placeholder="COUNTRY" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control input-lg" placeholder="E-MAIL" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control input-lg" rows="5" placeholder="YOUR FAVOURITE DRUNK FOOD" required></textarea>
-                        </div>
-                        <button type="submit" class="btn wow bounceInRight animate" id="thankyoubutton" data-wow-delay="0.8s">Thank you!</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-</br>
-       <div class="row">
-         <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
+   <div id = "sociallinks" class= "social">
+    <h3> FOLLOW OUR SOCIAL MEDIA</h3>
+    <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+    <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+    <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+  </div>
 
-         </body>
 
-           
-           
-         <h3> FOLLOW OUR SOCIAL MEDIA</h3>
-         <a href="https://www.instagram.com" class="fa fa-instagram"></a>
-         <a href="https://www.facebook.com" class="fa fa-facebook"></a>
-         <a href="https://www.twitter.com" class="fa fa-twitter"></a>
-       </div>
+
+  <script src="./js/project.js"></script>
+
+
+</body>
+
+<div class="footer">
+  <div>
+      <p class="copyright">&copy; 2020 MIDNIGHT DINER </p>
+  </div>
+
+  <a href="#" class="scrolltotop"><i class="fa fa-arrow-circle-up fa-3x"></i></a>
 
 </html>
