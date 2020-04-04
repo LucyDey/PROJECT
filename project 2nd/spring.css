@@ -1,0 +1,77 @@
+body {
+    text-align: center;
+    font-family: 'Comfortaa';
+    background: url("style/blackmap.jpg");
+    color: rgb(245, 245, 245);
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+a{
+  color: aliceblue;
+  width: 165px;
+  font-size: 14px;
+}
+
+a:hover{
+  text-decoration: underline;
+  opacity: 50%;
+  color: rgb(107, 107, 107);
+
+}
+
+.dropdown-menu{
+  opacity: 80%;
+}
+
+.dropdown-menu:hover{
+  color: rgb(255, 255, 255);
+}
+
+.carousel-caption{
+  color: aliceblue;
+  z-index: 10;
+}
+.carousel-inner {
+  color: #ffffff;
+height: 550px;
+width: 1150px;
+font-family: 'Comfortaa';
+}
+
+.carousel .item {
+  height: 550px;
+}
+
+.carousel images{
+  height: 500px
+  width:  660px
+}
+
+.left{
+width: 30px;
+margin-top: 250px;
+height: 30px;
+
+}
+
+.right{
+  width: 30px;
+  margin-top: 250px;
+  height: 30px;
+  
+}
+
+
+.fa {
+  padding: 15px;
+  margin-left: 10px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
