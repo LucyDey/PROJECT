@@ -31,41 +31,36 @@ a:hover{
   color: rgb(255, 255, 255);
 }
 
-.carousel-caption{
+.carousel-item{
   color: aliceblue;
   z-index: 10;
 }
-.carousel-inner {
+.card mb-2 {
   color: #ffffff;
 height: 550px;
 width: 1150px;
 font-family: 'Comfortaa';
 }
 
-.carousel .item {
+.card-img-top {
   height: 550px;
+  width: 300px  
 }
 
-.carousel images{
-  height: 500px
-  width:  660px
-}
-
-.left{
+.btn-floating{
 width: 30px;
 margin-top: 250px;
 height: 30px;
 
 }
 
-.right{
-  width: 30px;
-  margin-top: 250px;
-  height: 30px;
-  
-}
-
-
+.card-body{
+    height: 700px;
+    width: 500px;
+    
+}    
+    
+    
 .fa {
   padding: 15px;
   margin-left: 10px;
