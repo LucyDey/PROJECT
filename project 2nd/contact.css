@@ -1,3 +1,39 @@
+body {
+  text-align: center;
+  font-family: 'Comfortaa';
+  background: url("style/blackmap.jpg");
+  color: rgb(245, 245, 245);
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+button{
+
+  color: black;
+}
+a{
+  color: aliceblue;
+  width: 180px;
+  font-size: 14px;
+}
+
+a:hover{
+  text-decoration: underline;
+  opacity: 50%;
+  color: rgb(107, 107, 107);
+
+}
+
+.dropdown-menu{
+  opacity: 80%;
+}
+
+.dropdown-menu:hover{
+  color: rgb(255, 255, 255);
+}
+
 
 .container {
 bottom: 90px;
@@ -100,41 +136,6 @@ fieldset {
 }
 
 
-body {
-  text-align: center;
-  font-family: 'Comfortaa';
-  background: url("style/blackmap.jpg");
-  color: rgb(245, 245, 245);
-  background-color: black;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-button{
-
-  color: black;
-}
-a{
-  color: aliceblue;
-  width: 180px;
-  font-size: 14px;
-}
-
-a:hover{
-  text-decoration: underline;
-  opacity: 50%;
-  color: rgb(107, 107, 107);
-
-}
-
-.dropdown-menu{
-  opacity: 80%;
-}
-
-.dropdown-menu:hover{
-  color: rgb(255, 255, 255);
-}
 
 .fa {
   padding: 15px;
