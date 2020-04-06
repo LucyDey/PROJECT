@@ -33,7 +33,7 @@ function showSlides(n) {
 }
 
 // script for auto slider
-setInterval(nextImage , 6000)var image = ['/rules', '/balthazar', '/chenmapo', '/platillo-voladores', '/100hours'];
+setInterval(nextImage , 6000)var image = ['rules', 'balthazar', 'chenmapo', 'platillo-voladores', '100hours'];
 
 var i = image.length;
 //function for next slide
