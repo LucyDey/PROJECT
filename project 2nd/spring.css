@@ -89,23 +89,23 @@ a:hover{
     z-index: 2;
     opacity: 1;
   background:url('./100hours.jpg');
-  background-size:500px 300px;
+  background-size:cover;
   }
 .item-2{
   background:url('./rules.jpg');
-   background-size:500px 300px;
+   background-size:cover;
 }
 .item-3{
   background:url('./platillos-voladores.jpg');
-   background-size:500px 300px;
+   background-size:cover;
 }
 .item-4{
   background:url('./chenmapo.jpg');
-   background-size:500px 300px;
+   background-size:cover;
 }
 .item-5{
   background:url('./balthazar.jpg');
-   background-size:500px 300px;
+   background-size:cover;
 }
 *:target ~ .item-1 {
     opacity: 0;
