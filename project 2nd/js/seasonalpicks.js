@@ -1,4 +1,4 @@
-var image = ['a', 'b', 'c', 'd', 'e'];
+var image = ['/rules', '/100hours', '/platillo-voladores', '/chenmapo', '/balthazar'];
 
 var i = image.length;
 //function for next slide
