@@ -1,15 +1,25 @@
-$('.carousel.carousel-multi-item.v-2 .carousel-item').each(function(){
-  var next = $(this).next();
-  if (!next.length) {
-    next = $(this).siblings(':first');
-  }
-  next.children(':first-child').clone().appendTo($(this));
+var image = ['a', 'b', 'c', 'd', 'e'];
 
-  for (var i=0;i<4;i++) {
-    next=next.next();
-    if (!next.length) {
-      next=$(this).siblings(':first');
+var i = image.length;
+//function for next slide
+function nextImage(){
+  if (i>image.length) {
+    i= i+1;
+      }else{
+        i = 1;
+      }
+      slider_content.innerHTML = `<img src="${image[i-1]}.jpg">`;
+}
+
+function prewImage(){
+  if (i<image.length) {
+  i= i-1;
+    }else{
+      i = image.length ;
     }
-    next.children(':first-child').clone().appendTo($(this));
-  }
-});
+    slider_content.innerHTML = `<img src="${image[i-1]}.jpg">`;
+
+}
+
+// script for auto slider
+setInterval(nextImage , 6000)
