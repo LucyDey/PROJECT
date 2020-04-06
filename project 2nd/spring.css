@@ -47,6 +47,7 @@ a:hover{
   opacity:0;
   transition: all 0.5s ease-in-out;
 }
+
 .arrow{
   border: solid black;
     border-width: 0 3px 3px 0;
@@ -88,23 +89,23 @@ a:hover{
 .item-1 {
     z-index: 2;
     opacity: 1;
-  background:url('./100hours.jpg');
+  background:url('/100hours.jpg');
   background-size:cover;
   }
 .item-2{
-  background:url('./rules.jpg');
+  background:url('/rules.jpg');
    background-size:cover;
 }
 .item-3{
-  background:url('./platillos-voladores.jpg');
+  background:url('/platillos-voladores.jpg');
    background-size:cover;
 }
 .item-4{
-  background:url('./chenmapo.jpg');
+  background:url('/chenmapo.jpg');
    background-size:cover;
 }
 .item-5{
-  background:url('./balthazar.jpg');
+  background:url('/balthazar.jpg');
    background-size:cover;
 }
 *:target ~ .item-1 {
