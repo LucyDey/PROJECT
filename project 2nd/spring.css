@@ -30,13 +30,13 @@ a:hover{
   color: rgb(255, 255, 255);
 }
 
- .slider{
+.slider{
      max-width: 700px;
      border: 10px solid white;
      margin: 60px auto;
      position: relative;
 }
-.slider .left-slide,.silde .right-slide{{
+.slider .left-slide,.slider .right-slide{{
     position: absolute;
     height: 40px;
     width: 40px;
@@ -50,7 +50,7 @@ a:hover{
     text-allign: center;
     line-height: 40 px;
 }
-.slider .left-slide:hover,.silde .right-slide:hover{
+.slider .left-slide:hover,.slider .right-slide:hover{
     box-shadow: 0px 0px 10px black;
     background-color: #29a8e2;
 }    
@@ -58,13 +58,16 @@ a:hover{
 .slider .left-slide{
     left: 30px;
 }
+    
 .slider.right-slide{
     right: 30px;
 }
+    
 .slider .slider-items .item img{
     max-width: 100%;
     display: block;
 }
+    
 .slider .slider-items .item{
     display: none;
 }
@@ -86,10 +89,4 @@ a:hover{
     display: block;
 }
         
-        
-        
-
-
-
-     
      
