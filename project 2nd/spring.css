@@ -1,6 +1,7 @@
 body {
     text-align: center;
     font-family: 'Comfortaa';
+    background: url("style/blackmap.jpg");
     color: rgb(245, 245, 245);
     background-color: black;
     background-size: cover;
@@ -11,7 +12,7 @@ body {
 
 a{
   color: aliceblue;
-  width: 165px;
+  width: 180px;
   font-size: 14px;
 }
 
@@ -29,6 +30,7 @@ a:hover{
 .dropdown-menu:hover{
   color: rgb(255, 255, 255);
 }
+
 
 .slider{
      max-width: 700px;
@@ -48,10 +50,10 @@ a:hover{
     cursor: pointer;
     margin-top: -20px;
     text-allign: center;
-    line-height: 40 px;
+    line-height: 40px;
 }
 .slider .left-slide:hover,.slider .right-slide:hover{
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 10pxblack;
     background-color: #29a8e2;
 }    
     
